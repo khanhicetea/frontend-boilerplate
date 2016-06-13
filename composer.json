@@ -1,0 +1,16 @@
+{
+    "name": "khanhicetea/frontend-boilplate",
+    "description": "Frontend boilplate by PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KhanhIceTea",
+            "email": "khanhicetea@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "twig/twig": "~1.24"
+    }
+}
