@@ -6,7 +6,7 @@
 /.idea
 
 # Assets
-assets
-templates
+assets/*
+templates/*
 !assets/.gitkeep
 !templates/.gitkeep
