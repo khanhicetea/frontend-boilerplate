@@ -57,7 +57,9 @@ echo "\n----- Start !!! ------\n";
 // Clean dist folder
 echo "\n--- Cleaning dist folder ---";
 $dist_folder = $folder . '/dist';
-rm_directory($dist_folder);
+if (is_dir($dist_folder)) {
+    rm_directory($dist_folder);    
+}
 mkdir($dist_folder);
 
 // Copy entire assets folder
