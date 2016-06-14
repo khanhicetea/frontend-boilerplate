@@ -1,12 +1,8 @@
-# Managed by Composer
-/vendor/
+*
 
-# Composer PHAR
-/composer.phar
-/.idea
-
-# Assets
-assets/*
-templates/*
-!assets/.gitkeep
-!templates/.gitkeep
+!.gitignore
+!index.php
+!build.php
+!composer.json
+!composer.lock
+!README.md

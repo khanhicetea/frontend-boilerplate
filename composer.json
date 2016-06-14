@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "twig/twig": "~1.24"
+        "twig/twig": "~1.24",
+        "symfony/finder": "~3.1"
     }
 }
